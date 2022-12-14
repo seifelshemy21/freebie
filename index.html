@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!----------------------- header --------------------------->
+    <!-- icon -->
+    <link rel="icon" href="img/B.png">
+    <!-- normalize -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- my style -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Login Freebie</title>
+</head>
+<body>
+    <button class="darkmode" onclick="DarkMode()" >dark mood</button>
+
+    <section>
+        <div>
+            <img src="img/B.png" alt="">
+            <h3 class="error2" id="error2"> </h3>
+        </div>
+        <form action="#" onsubmit="return formlogin();">
+            <input type="text" id="email" placeholder="email address">
+            <input type="password" id="password" placeholder="password">
+            <a href="#" >forgot password</a>
+            <button>sign in</button>
+        </form>
+        <div class="container">
+            <div class="row text-center bor-sign">
+                <div class="col-4 border1"></div>
+                <div class="col-4"><a href="#">or sign in with..</a></div>
+                <div class="col-4 border1"></div>
+                <div class="col-4"><i class="fa-brands fa-facebook"></i></div>
+                <div class="col-4"><img src="img/logo_googleg_48.png" alt=""></div>
+                <div class="col-4"><i class="fa-brands fa-twitter"></i></div>
+            </div>
+        </div>
+    </section>
+    <script src="css/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
