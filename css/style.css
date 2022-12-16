@@ -18,7 +18,7 @@ body{
 h3{
     color: red;
 }
-section{
+.main{
     background-color:#FEFEFE;
     width: 520px;
     height: 620px;
@@ -102,4 +102,135 @@ form button{
 }
 .bor-sign .fa-twitter{
     color: #219fef;
+}
+/************************ end index ****************** */
+.img_bound{
+    position: relative;
+    left: 59px;
+    top: 67px;
+}
+.img_freebie{
+    position: absolute;
+    left: 102px;
+    top: 109px;
+}
+.img_pinsk{
+    position: absolute;
+    left: 110px;
+    top: 311px;
+}
+.user{
+    width: 159px;
+    height: 100px;
+}
+.user .img_ellips{
+    position: relative;
+    left: 937px;
+    top: 150px;
+}
+.user .img_me{
+    position: absolute;
+    left: 950px;
+    top: 530px;
+}
+.prompet{
+    position: relative;
+    left: 90px;
+    top: 120px;
+    width: 1068px;
+    height: 333px;
+}
+.prompet span{
+    width: 145px;
+    height: 21px;
+    font-size: 26px;
+    color: #0980fd;
+}
+.prompet h2{
+    width: 184px;
+    height: 93px;
+    font-size: 58px;
+    color: #222c41;
+}
+.prompet img{
+    width: 244px;
+    height: 8px;
+
+}
+.prompet p{
+    width: 1068px;
+    height: 114px;
+    font-size: 32px;
+    color: #222841;
+    font-style: italic;
+}
+/******************* end page ********************/
+footer{
+    position: relative;
+    height: 368px;
+    background-image: url(../img/Background.png);
+    background-size: cover;
+}
+.foot .img_Decoration{
+    position: relative;
+    left: 102px;
+    top: 60px;
+}
+footer .img_Rectangle{
+    position: relative;
+    left: 169px;
+}
+footer i{
+    position: absolute;
+    font-size: xx-large;
+}
+footer .fa-user-plus{
+    left: 202px;
+    top: 290px;
+}
+footer .fa-mobile-screen-button{
+    left: 290px;
+    top: 290px;
+}
+footer .fa-play{
+    left: 365px;
+    top: 290px;
+}
+.links{
+    position: absolute;
+    left: 950px;
+    top: 150px;
+}
+.links p{
+    width: 331px;
+    height: 62px;
+    font-size: 24px;
+    color: #222841;
+}
+.links .img_Container{
+    position: relative;
+}
+.links .img_Twitter,.img_Instagram,.img_Dribbble,.img_Behance{
+    position: absolute;
+}
+.img_Twitter{
+    left: 50px;
+    top: 105px;
+}
+.img_Instagram{
+    left: 130px;
+    top: 105px;
+}
+.img_Dribbble{
+    left: 210px;
+    top: 105px;
+}
+.img_Behance{
+    left: 290px;
+    top: 105px;
+}
+@media (min-width: 350px) and (max-width: 1160px)  {
+    footer{
+        width: 100%;
+    }
 }
